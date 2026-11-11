@@ -1,0 +1,56 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1491 >>
+stream
+BT /F1 18 Tf 50 790 Td (Microarchitectural Attacks and Defenses) Tj ET
+BT /F1 14 Tf 50 760 Td (Assignment 1 - Flush+Reload) Tj ET
+BT /F1 11 Tf 50 710 Td (Files created:) Tj ET
+BT /F1 11 Tf 50 690 Td (- flush_reload.c / flush_reload.h) Tj ET
+BT /F1 11 Tf 50 670 Td (- monitor.c) Tj ET
+BT /F1 11 Tf 50 650 Td (- fr_trace.c) Tj ET
+BT /F1 11 Tf 50 630 Td (- gpg_attack.c) Tj ET
+BT /F1 11 Tf 50 610 Td (- victimshim.c) Tj ET
+BT /F1 11 Tf 50 590 Td (- Makefile) Tj ET
+BT /F1 11 Tf 50 570 Td (- gnupg.txt) Tj ET
+BT /F1 11 Tf 50 550 Td (- trace.out) Tj ET
+BT /F1 11 Tf 50 530 Td () Tj ET
+BT /F1 11 Tf 50 510 Td (Implementation summary:) Tj ET
+BT /F1 11 Tf 50 490 Td (Task 1: map\(\) uses mmap with PROT_READ and MAP_PRIVATE.) Tj ET
+BT /F1 11 Tf 50 470 Td (Task 2: flush_reload\(\) uses clflush + rdtsc timing.) Tj ET
+BT /F1 11 Tf 50 450 Td (Task 3: monitor\(\) samples a target with period and maxwait.) Tj ET
+BT /F1 11 Tf 50 430 Td (Task 4: monitor binary prints detection timestamps.) Tj ET
+BT /F1 11 Tf 50 410 Td (Task 5: fr_trace tracks two offsets and writes trace.out.) Tj ET
+BT /F1 11 Tf 50 390 Td (Task 6: gpg_attack.c monitors the trigger and samples madgpg.) Tj ET
+BT /F1 11 Tf 50 370 Td () Tj ET
+BT /F1 11 Tf 50 350 Td (Tools used:) Tj ET
+BT /F1 11 Tf 50 330 Td (- GCC / Makefile build) Tj ET
+BT /F1 11 Tf 50 310 Td (- GDB and shell debugging) Tj ET
+BT /F1 11 Tf 50 290 Td (- Linux perf / timing checks) Tj ET
+BT /F1 11 Tf 50 270 Td (- ChatGPT for code review and debugging support) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001784 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1854
+%%EOF
